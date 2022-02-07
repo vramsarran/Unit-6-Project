@@ -1,0 +1,83 @@
+body{
+    color: white;
+    text-align: center;
+    font-family: 'Indie Flower';
+    background: linear-gradient(to bottom, #00cc00 0%, #0000ff 110%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.title {
+    font-size: 80px;
+    font-weight: 600;
+    padding: 10px 20px;
+    font-family: 'Luckiest Guy';
+    
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+
+.firstImage {
+    height: 450px;
+    border:double black 5px;
+}
+.system{
+    height: 200px;
+    display: none;
+    border:dashed 5px black;
+}
+
+.start-button {
+    height: 50px;
+    font-size: 15px;
+    color: red;
+}
+
+.button1{
+    display: none;
+}
+.next-button{
+    height: 50px;
+    font-size: 15px;
+    color: blue;
+}
+
+.button2{
+    display: none;
+    font-size: 20px;
+}
+.button3{
+    display: none;
+}
+
+.Museum{
+    display: none;
+    height: 200px;
+}
+.Image{
+    display: none;
+    height: 200px;
+}
+.alarm{
+    display:none;
+}
+.trapped{
+    display:none;
+}
+.celebrate{
+    display: none;
+}
+
+
+
+/* Check out `display:none`. What do you think it does?*/
